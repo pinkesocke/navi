@@ -208,3 +208,19 @@ div.title-wrapper a {
 .footer > p:hover {
   cursor: url('./sock.png'), auto;
 }
+
+@media (max-width: 768px) {
+	.cards{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 400px;
+    margin-inline: auto;
+    width: 100%;
+  }
+  .previewCard {
+    justify-self: center;
+  }
+  div.main-body {
+    width: 100%;
+  }
+}
